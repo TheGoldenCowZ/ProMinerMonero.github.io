@@ -96,3 +96,9 @@ footer{
 	opacity: 100%;
 
 }
+
+footer{
+	background:#e5c100;
+	padding: 5px;
+	border-radius: 2px;
+}

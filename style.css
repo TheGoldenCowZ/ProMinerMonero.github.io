@@ -1,6 +1,22 @@
 body{
-	background-image:url("mine.jpg");
+	background-image:url("back.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	color: white;
+	color: gold;
+}
+
+div#mining-buttons-overlay{
+	position: static;
+	top: 50px;
+}
+
+div.Adds{
+ -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 25px; 
+}
+h1 {
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   font-size: 50px;
 }

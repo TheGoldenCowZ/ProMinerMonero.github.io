@@ -96,3 +96,25 @@ footer{
    -webkit-text-stroke-color: white;
    font-size: 15px;
 }
+div.meme{
+	position: absolute;
+	left: 0px;
+	top: 150px;
+	right: 0px;
+	bottom: 0px;
+background-clip: gold;
+	margin: auto;
+
+
+}
+
+div.price{
+	background-color: #e5c100;
+	color: white
+}
+div.border{
+		background:#e5c100;
+	color:#e5c100;
+	margin:0;
+	padding: 5px 10px;
+}

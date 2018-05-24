@@ -6,6 +6,7 @@ body{
 	margin: 0px;
 	padding: 0px; 
 	background-image: #e5c100;
+
 }
 header{
 	background:gold;
@@ -97,13 +98,8 @@ footer{
    font-size: 15px;
 }
 div.meme{
-	position: absolute;
-	left: 0px;
-	top: 150px;
-	right: 0px;
-	bottom: 0px;
 background-clip: gold;
-	margin: auto;
+
 
 
 }
@@ -117,4 +113,23 @@ div.border{
 	color:#e5c100;
 	margin:0;
 	padding: 5px 10px;
+}
+
+div.tekst{
+	border: 5px solid gold;
+	background-color: #e5c100;
+	border-radius: 5px;
+	padding: 10px;	
+	width: 600px	;	
+	margin: 10px 0 0 10px;
+	left: 50%;
+  bottom:5px;
+  color: white;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

@@ -90,6 +90,10 @@ footer{
 }
 
 footer{
+    position: static;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
 	background:#e5c100;
 	padding: 5px;
 	border-radius: 2px;
@@ -103,7 +107,7 @@ background-clip: gold;
 
 
 }
-
+	
 div.price{
 	background-color: #e5c100;
 	color: white
@@ -116,15 +120,17 @@ div.border{
 }
 
 div.tekst{
+	position: absolute;
+	top: 200px;	
 	border: 5px solid gold;
 	background-color: #e5c100;
 	border-radius: 5px;
 	padding: 10px;	
 	width: 600px	;	
 	margin: 10px 0 0 10px;
-	left: 50%;
+	left: 25%;
   bottom:5px;
-  color: white;
+  color: white;	
 
 }
 .center {
@@ -132,4 +138,13 @@ div.tekst{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+div.official{
+	position: absolute;
+
+	width: 150px;
+	padding: 10px;
+
+	background-color: gold;
 }
